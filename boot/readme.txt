@@ -1,4 +1,4 @@
-Theme Name: bootstrap
+Theme Name: bootstrap1
 Theme URI: http://theme.sir.kr/gnuboard5/demo/basic
 Maker: SIR
 Maker URI: http://sir.kr
