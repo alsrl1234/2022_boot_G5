@@ -15,11 +15,23 @@ if(G5_COMMUNITY_USE === false) {
 include_once(G5_THEME_PATH.'/head.php');
 ?>
 <style>
-    .visual{
+    .mView{
+        width: 100%;
+        padding-top: 36%;
+        position: relative;
+        overflow: hidden;
+    }
+    .mView video{position: absolute;width: 100%;left: 50%;top: 50%;transform:translate(-50%,-50%);}
+</style>
+<div class="mView">
+    <video src="https://ybmlemon.com/img/web/HOME/main/ybmlemon.mp4" autoplay="" muted=""></video>
+</div>
+<style>
+    .cont{
         height: 100px;
         background: skyblue;
     }
 </style>
-<div class="visual"></div>
+<div class="container bg-dark cont"></div>
 <?php
 include_once(G5_THEME_PATH.'/tail.php');
